@@ -17,7 +17,7 @@ public class FahrenheitTest extends TestCase{
         float value = 12.34f;
 
         Fahrenheit temp = new Fahrenheit(value);
-        String string = temp.toString();
+        String string = temp.toString() + " F";
 
         String beginning = "" + value;
         String ending = " F";
