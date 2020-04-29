@@ -1,4 +1,5 @@
 language: java
+dist: trusy
 before_install:
 - sudo apt-get install -y ant
 - sudo apt-get install -y ant-optional
